@@ -12,7 +12,7 @@ body {
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
 
-.cabecalho {
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,30 +20,30 @@ body {
     padding: 24px;
 }
 
-.cabecalho-imagem {
+.header-img {
     height: 100px; 
     width: 120px;
     border-radius: 10px;
 }
 
-.cabecalho-menu {
+.header-menu {
     display: flex;
     gap: 32px;
 }
 
-.cabecalho-menu-item {
+.header-menu-item {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 18px;
 }
 
-.conteudo {
+.content {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;
 }
 
-.conteudo-principal {
+.main-content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,27 +51,27 @@ body {
     margin-top: 64px;
 }
 
-.conteudo-principal-escrito {
+.main-content-text {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.conteudo-principal-escrito-titulo {
+.main-content-text-title {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
 }
 
-.conteudo-principal-escrito-subtitulo {
+.main-content-text-subtitle {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #ECD6C4;
 }
 
-.conteudo-principal-escrito-botao {
+.main-content-text-button {
     background-color: #ECD6C4;
     width: 185px;
     height: 67px;
@@ -85,17 +85,17 @@ body {
     color: #2F2325;
 }
 
-.conteudo-principal-escrito-botao:hover {
+.main-content-text-button:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
 
-.conteudo-principal-imagem {
+.main-content-img {
     height: 300px;
     width: 300px;
     border-radius: 50px;
 }
 
-.conteudo-secundario {
+.secondary-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@ body {
     margin-top: 64px;
 }
 
-.conteudo-secundario-titulo {
+.secondary-content-title {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 24px;
     font-family: 'Righteous', cursive;
@@ -113,19 +113,19 @@ body {
     margin-bottom: 16px;
 }
 
-.conteudo-secundario-paragrafo {
+.secondary-content-text {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #ECD6C4;
 }
 
-.rodape {
+.footer {
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
 }
 
-.rodape-imagem {
+.footer-img {
     height: 150px;
     width: 400px;
     display: block;
